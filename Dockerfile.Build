@@ -1,0 +1,5 @@
+FROM openjdk:17-jdk-slim
+
+WORKDIR /usr/src/onpremises
+
+CMD ./ui.sh;./gradlew clean build

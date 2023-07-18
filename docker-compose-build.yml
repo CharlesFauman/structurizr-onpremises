@@ -1,0 +1,8 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.Build
+    volumes:
+      - .:/usr/src/onpremises
+      - .:/usr/src/structurizr-ui
